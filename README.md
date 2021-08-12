@@ -6,7 +6,7 @@
 
 Anthology is a cataloguing application for amateur collectors. Users can create collections, add items, view statistics, export collections and loan out items, among other things. The application has a Python/Qt frontend and a MySQL backend. Anthology was programmed for my A Level computer science coursework. I have also uploaded a copy of the report I wrote for that project to this repository.
 
-# Installation
+## Installation
 Anthology requires the following dependencies to be installed via pip
 * PyQt5
 * mysql-connector-python
@@ -34,3 +34,9 @@ CREATE TABLE Loans (PK_Loans INTEGER(255) NOT NULL AUTO_INCREMENT PRIMARY KEY, D
 Anthology should now be ready to use!
 
 (NOTE: the Google Drive backups won't work as they require a Google developer account and the loaning feature won't work as it needs a script to be scheduled with CRONTAB, however you are welcome to peruse the source code and get these things working on your computer if you want)
+
+## Screenshots
+<p float="left">
+  <img src="/screenshots/screenshot1.png" width="350" />
+  <img src="/screenshots/screenshot2.png" width="350" /> 
+</p>
