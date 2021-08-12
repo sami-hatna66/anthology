@@ -19,3 +19,14 @@ Anthology requires the following dependencies to be installed via pip
 Anthology also requires MySQL to be installed on your computer. You can install MySQL [here](https://dev.mysql.com/downloads/mysql/).
 
 You will also need [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) to run the setup code.
+
+Once MySQL has been installed and setup, run the following code (or open and run AnthologySetup.sql)
+
+```bash
+CREATE DATABASE Anthology;
+USE Anthology;
+CREATE TABLE Users (PK_Users INTEGER(255) NOT NULL AUTO_INCREMENT PRIMARY KEY, Email VARCHAR(320), PasswordHash VARCHAR(200));
+CREATE TABLE Collections (PK_Collections INTEGER(255) NOT NULL AUTO_INCREMENT PRIMARY KEY, CollectionName VARCHAR(320), TableName VARCHAR(320), FK_Users_Collections INTEGER(255));
+CREATE TABLE Sizes (PK_Sizes INTEGER(255) NOT NULL AUTO_INCREMENT PRIMARY KEY, TimeRecorded DATETIME, Magnitude INTEGER(255), FK_Collections_Users INTEGER(500));
+CREATE TABLE Loans (PK_Loans INTEGER(255) NOT NULL AUTO_INCREMENT PRIMARY KEY, DueDate DATE, FK_Collections_Loans INTEGER(255), FK_Users_Loans INTEGER(255), KeyInCorrespondingTable INTEGER(255), Email BOOLEAN, Push BOOLEAN)
+```
