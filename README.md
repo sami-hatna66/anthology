@@ -9,6 +9,6 @@ Anthology is a cataloguing application for amateur collectors. Users can create 
 # Installation
 Anthology requires the following dependencies to be installed via pip
 * PyQt5
-  * ```bash
-    pip install pyqt5
-    ```
+* ```bash
+  pip install pyqt5
+  ```
