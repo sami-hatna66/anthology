@@ -33,4 +33,4 @@ CREATE TABLE Loans (PK_Loans INTEGER(255) NOT NULL AUTO_INCREMENT PRIMARY KEY, D
 
 Anthology should now be ready to use!
 
-(NOTE: the Google Drive backups won't work as they require a Google developer account and the loaning feature won't work as it needs a script to be scheduled with CRONTAB, however you are welcome to peruse the source code and get these things working on your machines if you want)
+(NOTE: the Google Drive backups won't work as they require a Google developer account and the loaning feature won't work as it needs a script to be scheduled with CRONTAB, however you are welcome to peruse the source code and get these things working on your computer if you want)
