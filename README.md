@@ -16,5 +16,6 @@ Anthology requires the following dependencies to be installed via pip
 * pyzbar
 * tabulate
 
-Anthology also requires MySQL to be installed on your computer. You can install MySQL [here](https://dev.mysql.com/downloads/mysql/)
+Anthology also requires MySQL to be installed on your computer. You can install MySQL [here](https://dev.mysql.com/downloads/mysql/).
+
 You will also need [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) to run the setup code.
