@@ -9,6 +9,12 @@ Anthology is a cataloguing application for amateur collectors. Users can create 
 # Installation
 Anthology requires the following dependencies to be installed via pip
 * PyQt5
-* ```bash
-  pip install pyqt5
-  ```
+* mysql-connector-python
+* pyDrive (for Google Drive API)
+* matplotlib
+* opencv-python-headless
+* pyzbar
+* tabulate
+
+Anthology also requires MySQL to be installed on your computer. You can install MySQL [here](https://dev.mysql.com/downloads/mysql/)
+You will also need [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) to run the setup code.
