@@ -46,4 +46,4 @@ Anthology should now be ready to use!
   <img src="/screenshots/screenshot3.png" width="400" /> 
 </p>
 
-<img src="/screenshots/screenshot12.png" width="700" />
+<img src="/screenshots/screenshot12.png" width="800" />
