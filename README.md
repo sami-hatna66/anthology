@@ -49,7 +49,18 @@ Anthology should now be ready to use!
 <img src="/screenshots/screenshot12.png" width="800" />
 
 <p float="left">
-  <img src="/screenshots/screenshot13.png" width="250" />
-  <img src="/screenshots/screenshot4.png" width="250" /> 
-  <img src="/screenshots/screenshot6.png" width="400" />
+  <img src="/screenshots/screenshot13.png" width="400" />
+  <img src="/screenshots/screenshot4.png" width="400" /> 
 </p>
+
+<p float="left">
+  <img src="/screenshots/screenshot6.png" width="400" />
+  <img src="/screenshots/screenshot7.png" width="400" /> 
+</p>
+
+<p float="left">
+  <img src="/screenshots/screenshot9.png" width="400" />
+  <img src="/screenshots/screenshot10.png" width="400" /> 
+</p>
+
+<img src="/screenshots/screenshot11.png" width="400" />
