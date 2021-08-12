@@ -20,7 +20,7 @@ Anthology also requires MySQL to be installed on your computer. You can install 
 
 You will also need [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) to run the setup code.
 
-Once MySQL has been installed and setup, run the following code on your SQL server (or open and run AnthologySetup.sql)
+Once MySQL has been installed and setup, run the following code on your SQL server to create the database and tables (or open and run AnthologySetup.sql)
 
 ```bash
 CREATE DATABASE Anthology;
